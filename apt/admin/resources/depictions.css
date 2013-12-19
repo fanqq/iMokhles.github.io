@@ -1,0 +1,134 @@
+#depictions {
+	width: 100%;
+}
+#depictions:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+#depictions > div {
+	float: right;
+	width: 50%;
+}
+
+#depictions > div > h3,
+#depictions > div > form > h3 {
+	margin: 0 auto .5em;
+	width: 280px;
+}
+
+#depictions > div:first-of-type {
+	position: fixed;
+}
+@media screen and (max-device-width: 320px) {
+	#depictions > div {
+		float: left;
+	}
+	#depictions > div:first-of-type {
+		position: static;
+	}
+}
+/*#depictions > div:first-of-type > * {
+	position: fixed;
+}*/
+
+.apercu_div {
+	margin: 0 auto;
+	width: 300px;
+}
+.apercu_div > iframe {
+	height: 350px;
+}
+
+.semantic_div {
+	border: medium solid #777;
+	margin: 0 auto;
+	padding: .5em;
+	width: 300px;
+}
+.semantic_div h4 {
+	margin: .5em 0;
+}
+.semantic_div [data-type] {
+	border: medium solid #dc143c;
+	padding: .5em;
+	position: relative;
+}
+.semantic_div [data-type] + [data-type] {
+	margin-top: .5em;
+}
+.semantic_div > [data-type="section"] {
+	padding-top: 30px;
+}
+.semantic_div > [data-type="section"] > [data-type] {
+	border-color: #00008b;
+}
+
+.semantic_div [data-type="header"] > input[type="text"],
+.semantic_div [data-type="footer"] > input[type="text"] {
+	font-size: 1em;
+}
+
+.semantic_div .ajouter_div {
+	border: medium solid green;
+	cursor: default;
+	padding: .5em;
+	margin-top: .5em;
+}
+.semantic_div .ajouter_div:first-child {
+	margin-top: 0;
+}
+
+.semantic_div [data-type="cell"] > label {
+	display: block;
+	padding: 3px 0;
+	position: relative;
+}
+.semantic_div [data-type="cell"] > label > input[type="text"],
+.semantic_div [data-type="cell"] > label > input[type="url"] {
+	position: absolute;
+	right: 0px;
+	width: 70%;
+}
+
+.semantic_div [data-type="cell"] > label > img.icone {
+	height: 30px;
+	width: 30px;
+}
+
+.move_btns {
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	z-index: 1;
+}
+.move_btns > button {
+	-webkit-appearance: none;
+	appearance: none;
+	background-color: #eee;
+	background-image: -webkit-linear-gradient(top, #fff, #ddd);
+	background-image: linear-gradient(to bottom, #fff, #ddd);
+	border: 1px outset #eee;
+	display: inline-block;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr='#ffffff',endColorStr='#dddddd')";
+	font-weight: bold;
+	height: 20px;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	width: 20px;
+}
+.move_btns > button:hover {
+	background-color: #e6e6e6;
+	background-image: -webkit-linear-gradient(top, #fff, #ccc);
+	background-image: linear-gradient(to bottom, #fff, #ccc);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr='#ffffff',endColorStr='#cccccc')";
+}
+/* Je combine le :hover et le :active pour que le dégradé inversé ne se produise que lorsque le bouton est appuyé avec la souris au-dessus */
+.move_btns > button:hover:active {
+	background-color: #e6e6e6;
+	background-image: -webkit-linear-gradient(top, #ccc, #fff);
+	background-image: linear-gradient(to bottom, #ccc, #fff);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr='#cccccc',endColorStr='#ffffff')";
+}

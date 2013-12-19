@@ -1,0 +1,143 @@
+# Connexion
+
+Déconnecter===Log out
+Connexion===Log in
+Code d'accès===Password
+
+# Onglets
+
+Accueil===Home
+Paquets===Packages
+Catégories===Categories
+
+# Accueil
+
+Bienvenue dans le panneau d'administration de SourceManager!===Welcome to the SourceManager admin panel!
+N'hésitez pas à explorer les onglets :)===Don't hesitate to explore the tabs :)
+Vous possédez la version===You have version
+vérifiez les mises à jour depuis===check upgrades form
+le site de SourceManager===SourceManager's website
+Mise à jour disponible!===Upgrade available!
+Mettre à jour maintenant!===Upgrade now!
+
+# Paquets
+
+Ajouter un paquet===Add new package
+Visible dans Cydia===Available in Cydia
+No.===Nb.
+Icône===Icon
+Nom===Name
+Catégorie===Category
+Identifiant===Identifier
+Régénération manuelle===Manual regeneration
+Utilisez cette fonction si vous avez manuellement ajouté des fichiers .deb dans userdata/debs/ ou encore si vous avez des erreurs du type « Hash Sum Mismatch ».===Use this function if you have manually added deb files in userdata/debs/ or if you have errors like "Hash Sum Mismatch".
+Régénérer le Packages.gz===Regenerate Packages.gz
+
+# Édition d'un paquet
+
+Édition de===Editing
+Retour aux paquets===Back to packages
+Voulez-vous vraiment supprimer ce paquet et tout ce qui y est lié?===Do you really want to delete this package and everything associated with it?
+Supprimer le paquet===Delete package
+Appliquer les modifications===Apply modifications
+Remplacer le .deb===Replace .deb
+mettre à jour===upgrade
+aperçu===preview
+Catégorie qui s'affiche dans Cydia===Shown category in Cydia
+Par défaut (dans le .deb)===By default (in the .deb)
+Personnalisées===Custom
+Captures d'écran===Screenshots
+Ajouter une capture d'écran===Add new screenshot
+Ajouter===Add
+
+# Ajouter paquet
+
+Fichier .deb===DEB file
+Vous pourrez modifier les informations du paquet après l'avoir ajouté.===You will be able to edit the package's info after you add it.
+Ajouter le paquet===Add package
+Retour===Back
+
+# Catégories
+
+Créer le paquet de catégories===Create categories package
+Icônes de la source===Source icons
+Paquet d'icônes===Icons package
+(doit être unique pour chaque source)===(must be unique for each source)
+Régénérer le paquet d'icônes===Regenerate icons package
+(Cette version augmente automatiquement à chaque changement ci-dessous)===(This version increases with every change below)
+Appliquer===Apply
+Il est recommandé de finir ce champ par un espace.===It is recommended to end this field by a space.
+Aperçu===Preview
+Nom de la catégorie===Category name
+Nom de fichier===Filename
+Préfixe===Prefix
+Supprimer===Delete
+Renommer===Rename
+Nouveau nom===New name
+Ajouter une catégorie===Add new category
+(taille recommandée : 60px par 60px)===(recommended size : 60px by 60px)
+Ajouter la catégorie===Add category
+Êtes-vous certain de vouloir supprimer le paquet de catégories de votre source?===Are you sure you want to detele the categories packages of your source?
+Supprimer le paquet de catégories===Delete categories package
+Sélectionnez une icône===Select icon
+
+# Depictions
+
+Veuillez activer JavaScript===Please enable JavaScript
+Enregistrer les changements===Save modifications
+Régénérer===Regenerate
+Sémantique===Semantics
+Sélection===Selection
+Titre===Title
+Valeur===Value
+Icône===Icon
+Bleue===Blue
+Grise===Gray
+Verte===Green
+Rouge===Red
+Description du paquet===Package Description
+Screenshots du paquet===Package Screenshots
+Downloads du paquet===Package Downloads
+Vous avez effectué des modifications qui n'ont pas été enregistrées.===You did modification that were not saved.
+
+# Depictions (in Cydia)
+
+Faux paquet===Fake package
+Description exemple.===Example description.
+Téléchargements===Downloads
+
+# Stats page
+
+Statistiques===Statistics
+Utilisateurs===Users
+
+# Configuration
+
+Le code a bien été modifié.===Password was changed.
+Le code n'est pas assez long.===Password is not long enough.
+Les deux codes d'accès doivent correspondre.===The two passwords must match.
+L'ancien code d'accès ne correspond pas à l'actuel.===The old password isn't correct.
+Informations de la source===Source info
+Nom de la source===Source name
+Nom court de la source===Source short name
+Description de la source===Source description
+Valider===Validate
+Icône de la source===Source icon
+Téléverser un fichier===Upload file
+Modifier l'icône===Apply icon
+Êtes-vous certain?===Are you sure?
+Supprimer l'icône===Delete icon
+Ancien code d'accès===Old password
+Nouveau code d'accès===New password
+Nouveau code d'accès (encore)===New password (again)
+Je suis fou===I'm crazy
+Cette action est irréversible, voulez-vous vraiment continuer?===This action is irreversible, are you sure you want to continue?
+Réinitialiser les statistiques===Reset statistics
+Réinitialiser tous les réglages (reconfigurer)===Reset all settings (reconfigure)
+Supprimer tous les debs===Delete all debs
+Supprimer toute la source===Delete the entire source
+
+# Config (une seule fois)
+
+Code d'accès (encore)===Password (again)
+URL de la source (ne changer que si vous savez ce que vous faites)===Source URL (only change if you know what you're doing)

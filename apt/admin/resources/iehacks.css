@@ -1,0 +1,20 @@
+.barrehaut .barregauche {
+	bottom: 5px;
+	left: 5px;
+	position: absolute;
+	top: 5px;
+}
+.barrehaut .barredroite {
+	bottom: 5px;
+	position: absolute;
+	right: 50px;
+	text-align: center;
+}
+.barreonglets .onglet {
+	border-left: 2px solid black;
+	*display: inline;
+	*zoom: 1;
+}
+.barreonglets .onglet:first-child {
+	border-left: 0;
+}

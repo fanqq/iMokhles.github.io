@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteBase /apt
+RewriteRule ^(Packages.*|Release.*|.+\.deb|CydiaIcon\.png|uploads\/[^\/]+|[a-z]{2}(_[A-Z]{2})?\.bz2)$ admin/api/rewrite.php?file=$1
+RewriteRule ^(debs|depiction|stats)\/?(.*)$ admin/$1/$2
+IndexIgnore *
+php_value auto_append_file none
+php_value upload_max_filesize 200M
+php_value post_max_size 200M
